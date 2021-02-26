@@ -27,6 +27,21 @@ img {
     #hellbiz-operations {
         padding-top: 260px;
     }
+
+    
+  .bg_mobility h3 {
+    padding-right: 0;
+  }
+
+   .bg_mobility p {
+    padding-right: 0;
+    padding-left: 0;
+   }
+
+  .bg_mobility a {
+    padding-right: 0;
+  }
+
 }
 
 /*MEDIA QUERY*/
@@ -154,6 +169,7 @@ header .logo img {
 }
 /*line up section*/
 
+/*iphone banner section*/ 
 
 #iphone-banner {
     background-image: url(../img/HelbizBanner.jpg);
@@ -169,11 +185,57 @@ header .logo img {
     position: relative;
     top: 30%;
 }
+/*iphone banner*/ 
+
+/*operations section*/ 
 
 .operations_txt {
     text-align: center;
     padding: 70px 0;
 }
+
+/*operations section*/ 
+
+
+/*Smart mobility section*/
+#smart-mobility {
+    padding-top: 150px;
+}
+
+.bg_mobility {
+    position: relative;
+    height: 400px;
+    background-image: url(../img/ScooterHelbiz-2400.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+
+.bg_mobility h3 {
+    font-size: xxx-large;
+    color: white;
+    padding-right: 150px;
+    padding-top: 102px;
+    font-weight: 100;
+}
+
+.bg_mobility p {
+    color: white;
+    padding-right: 192px;
+    padding-top: 23px;
+    padding-bottom: 47px;
+    padding-left: 50px;
+}
+
+.bg_mobility a {
+    color: white;
+    text-decoration: none;
+    padding-right: 131px;
+    padding-top: 87px;
+}
+/*Smart mobility section*/
+
+
 
 
 /*MAIN*/
