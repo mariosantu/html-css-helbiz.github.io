@@ -16,6 +16,10 @@
     transform: translate(-50%, -50% );
 }
 
+img {
+    max-width: 100%;
+}
+
 /*HEADER*/
 
 /*nav*/
@@ -70,6 +74,7 @@ header .logo img {
 
 .jumbotron {
     background-image: url("../img/hero-bg.jpg");
+    background-position-y: 60%;
     background-size: cover;
     height: 550px;
     position: relative;
@@ -96,4 +101,54 @@ header .logo img {
 }
 /*jumbotron*/
 /*HEADER*/
+
+/*MAIN*/
+
+/*line up section*/
+
+#lineup-info {
+    padding: 20px 0;
+}
+
+.col_inner {
+    padding: 20px;
+}
+
+.product-content {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.prod-txt h3 {
+    padding-bottom: 10px;
+    padding-top: 60px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.prod-txt p {
+    padding: 10px 0;
+}
+
+.prod-txt a {
+    padding: 10px 0;
+    text-decoration: none;
+    color: blue;
+    font-size: 11px;
+}
+
+.img-prod {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/*line up section*/
+
+
+
+
+
+/*MAIN*/
+
+
+
 
