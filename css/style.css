@@ -30,8 +30,12 @@ header .top-nav {
 }
 
 header nav .burger a {
-    font-size: 25px;
+    font-size: 20px;
     color: black;
+}
+
+header .logo img {
+    height: 12px;
 }
 
 .menu {
@@ -48,7 +52,7 @@ header nav .burger a {
     color: black;
     font-size: 12px;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 20px;
     text-transform: uppercase;
 }
 
