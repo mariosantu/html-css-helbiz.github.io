@@ -19,6 +19,17 @@
 img {
     max-width: 100%;
 }
+/*COMMON*/
+
+/*MEDIA QUERY*/
+
+@media all and  (max-width: 991px) {
+    #hellbiz-operations {
+        padding-top: 260px;
+    }
+}
+
+/*MEDIA QUERY*/
 
 /*HEADER*/
 
@@ -144,7 +155,25 @@ header .logo img {
 /*line up section*/
 
 
+#iphone-banner {
+    background-image: url(../img/HelbizBanner.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position-y: 50%;
+}
 
+#iphone-banner img {
+    height: 600px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 30%;
+}
+
+.operations_txt {
+    text-align: center;
+    padding: 70px 0;
+}
 
 
 /*MAIN*/
