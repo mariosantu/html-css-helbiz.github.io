@@ -1,0 +1,63 @@
+/*COMMON*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper-small {
+    max-width: 950px;
+    margin: auto;
+}
+
+/*HEADER*/
+
+/*nav*/
+
+header nav {
+    text-align: right;
+
+}
+
+header .top-nav {
+    padding: 20px;
+}
+
+header nav .burger a {
+    font-size: 25px;
+    color: black;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 9px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.menu.lang li {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.menu.lang li:last-child {
+    border-right: none;  
+}
+/*nav*/
+
+
+
+
+
+
+/*HEADER*/
+
