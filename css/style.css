@@ -27,21 +27,6 @@ img {
     #hellbiz-operations {
         padding-top: 260px;
     }
-
-    
-  .bg_mobility h3 {
-    padding-right: 0;
-  }
-
-   .bg_mobility p {
-    padding-right: 0;
-    padding-left: 0;
-   }
-
-  .bg_mobility a {
-    padding-right: 0;
-  }
-
 }
 
 /*MEDIA QUERY*/
@@ -210,28 +195,26 @@ header .logo img {
     text-align: center;
 }
 
+.common-spacing {
+   padding: 50px;
+} 
 
 .bg_mobility h3 {
     font-size: xxx-large;
     color: white;
-    padding-right: 150px;
-    padding-top: 102px;
     font-weight: 100;
+    padding-top: 80px;
 }
 
 .bg_mobility p {
+    padding-top: 20px;
+    padding-bottom: 30px;
     color: white;
-    padding-right: 192px;
-    padding-top: 23px;
-    padding-bottom: 47px;
-    padding-left: 50px;
 }
 
 .bg_mobility a {
-    color: white;
     text-decoration: none;
-    padding-right: 131px;
-    padding-top: 87px;
+    color: white;
 }
 /*Smart mobility section*/
 
